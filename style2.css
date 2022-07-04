@@ -1,0 +1,279 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    width: 100%;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.head {
+    /* margin:0 auto; */
+    margin-top: 50px;
+    /* width: 50%; */
+    margin-bottom: 80px;
+    text-align: center;
+}
+.head h1 {
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.head h3 {
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* width: 65%; */
+    /* margin: 0 auto; */
+    letter-spacing: 5px;
+}
+
+.heading {
+    width: 65%;
+    float: left;
+    padding: 20px;
+}
+
+.title-heading {
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin-bottom: 50px;
+}
+.title-heading img {
+    width: 100%;
+}
+
+.gray {
+    color: gray;
+}
+
+.title-text {
+    padding: 20px;
+    background-color: white;
+}
+
+.title-text h3 {
+  font-weight: 400;
+  padding-bottom:20px;
+  font-size: 30px;
+}
+
+.title-text h5 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom:20px;
+}
+
+.title-text p {
+    padding-top: 10px;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.read-comment {
+    padding: 0px 10px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.read-comment button {
+    background: none;
+     border: 1px solid black;
+     font-size:16px;
+     padding: 17px;
+}
+
+.read-comment span {
+    font-size: 20px;
+}
+
+.read-comment button:hover {
+    background-color: rgb(233, 230, 230);
+    cursor: pointer;
+}
+
+.count {
+    background-color: black;
+    color: white;
+    padding: 5px 10px; 
+    border-radius: 100%;
+}
+
+.intro {
+    width: 35%;
+    float: left;
+    padding: 20px;
+}
+
+.name {
+    background-color: white;
+ width: 100%;
+ box-shadow: 0px 0px 6px 0px gray;
+}
+
+.name img {
+    width: 100%;
+}
+
+.name-text {
+    padding: 20px;
+}
+
+.name-text h3 {
+    font-size: 25px;
+    font-weight: 510;
+    padding-bottom: 20px;
+}
+
+.posts {
+    background-color: white;
+    width: 100%;
+    margin-top: 60px;
+    box-shadow: 0px 0px 6px 0px gray;
+}
+
+.posts h1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.post-content img {
+    width: 80px;
+    padding: 10px;
+}
+.post-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(191, 188, 188);
+}
+.post-content span {
+    padding: 20px;
+}
+
+.post-content:hover {
+    background-color: #d6d0d0;
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 20px;
+}
+
+.tags {
+    background-color:white;
+    width: 100%;
+    margin-top: 60px;
+    height: 240px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 6px 0px gray;  
+}
+
+.tags h3 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 22px;
+} 
+
+.city {
+    background-color: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 100px;
+    float: left;
+    margin:0px 10px 10px;
+}
+
+.cities {
+    padding: 20px;
+}
+.cities p{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 260px;
+    padding: 30px 50px 60px;
+    position: absolute;
+    top:1650px;
+    margin-top: 100px;
+    background-color: rgb(86, 85, 85);
+}
+
+.footer button {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 40px;
+}
+.previous {
+    opacity: 0.6;
+}
+
+.footer h2 {
+    margin-top: 40px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:400px) {
+
+    .heading {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .footer {
+        top:2950px;
+    }
+
+    .tags {
+        height: 270px;
+    }
+
+    .head h3 {
+        font-weight: 300;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+    }
+
+
+    
+}
