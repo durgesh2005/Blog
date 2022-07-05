@@ -284,4 +284,8 @@ body {
      .footer h2 {
     margin-top: 20px;
     }
+        
+    .footer button {
+        margin-top:10px;
+    }
 }
